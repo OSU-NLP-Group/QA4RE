@@ -27,7 +27,7 @@ pip install -r requirements.txt
 ## Data and Launch
 Download data and subsets via [Google Drive](https://drive.google.com/file/d/1tAB7V4_bV76FiPGMsoOWWJnZPtpePtwe/view?usp=sharing)
 <!-- are prepared in `./data` dir -->
-Unzip directly in `./`. The project should organize like this:
+Unzip directly in `./` and then the root folder should organize like this:
 ```
 .
 ├───  data
@@ -50,7 +50,7 @@ Unzip directly in `./`. The project should organize like this:
 │   ...
 ```
 
-Please refer to the [README](./projs/README.md) in `./projs` dir.
+For running, please refer to the [README](./projs/README.md) in `./projs` dir.
 
 ## Results
 #### QA4RE works on GPT-3.5 Series and FLAN-T5 Series, 6 LLMs in total
