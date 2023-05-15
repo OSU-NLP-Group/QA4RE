@@ -76,4 +76,4 @@ For running, please refer to the [README](./projs/README.md) in `./projs` dir.
 
 ## Question
 
-If you have any questions, please feel free to contact `drogozhang[AT]gmail[DOT]com` or open an issue!
+If you have any questions, please feel free to contact `drogozhang[AT]gmail[DOT]com` or open an issue so we can help you better and quicker :)
