@@ -11,8 +11,9 @@ In addition, it shows strong transferability to model sizes from 175B (GPT-3.5 s
 
 
 #### TODO
-- [ ] Organize and release CODE for FLAN T5
+- [ ] Organize and release CODE for FLAN T5 Series
 - [ ] Release output results of GPT-3.5 Series
+- [x] Organize and release Code for GPT-3.5 Series
 
 ## Installation
 
