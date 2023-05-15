@@ -7,7 +7,7 @@ In addition, it shows strong transferability to model sizes from 175B (GPT-3.5 s
 
 <!-- ![QA4RE-main figure.jpeg](https://s2.loli.net/2023/05/15/Lk1saYNjni3yqWP.jpg) -->
 
-<a href="https://sm.ms/image/Lk1saYNjni3yqWP" target="_blank"><img src="https://s2.loli.net/2023/05/15/Lk1saYNjni3yqWP.jpg" width="50%" height="50%" ></a>
+<a href="https://sm.ms/image/Lk1saYNjni3yqWP" target="_blank"><img src="https://s2.loli.net/2023/05/15/Lk1saYNjni3yqWP.jpg" width="75%" height="75%" ></a>
 
 CODE for FLAN T5 will be organized and released very soon.
 Output results of GPT-3.5 Series will be released soon.
@@ -55,12 +55,12 @@ Please refer to the [README](./projs/README.md) in `./projs` dir.
 ## Results
 #### QA4RE works on GPT-3.5 Series and FLAN-T5 Series, 6 LLMs in total
 <!-- ![QA4RE-table 1.jpeg](https://s2.loli.net/2023/05/15/is8XGo71lODm3Bq.jpg) -->
-<a href="https://sm.ms/image/is8XGo71lODm3Bq" target="_blank"><img src="https://s2.loli.net/2023/05/15/is8XGo71lODm3Bq.jpg" width="50%" height="50%" ></a>
+<a href="https://sm.ms/image/is8XGo71lODm3Bq" target="_blank"><img src="https://s2.loli.net/2023/05/15/is8XGo71lODm3Bq.jpg" width="75%" height="75%" ></a>
  
 
 #### QA4RE works on smaller instruction-tuned models.
 <!-- ![QA4RE-table 8.jpeg](https://s2.loli.net/2023/05/15/IEUrGuBWn9FNmb8.jpg) -->
-<a href="https://sm.ms/image/IEUrGuBWn9FNmb8" target="_blank"><img src="https://s2.loli.net/2023/05/15/IEUrGuBWn9FNmb8.jpg" width="50%" height="50%"></a>
+<a href="https://sm.ms/image/IEUrGuBWn9FNmb8" target="_blank"><img src="https://s2.loli.net/2023/05/15/IEUrGuBWn9FNmb8.jpg" width="75%" height="75%"></a>
 
 ## Cite
 ```
