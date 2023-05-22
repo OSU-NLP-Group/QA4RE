@@ -66,6 +66,9 @@ For running, please refer to the [README](./projs/README.md) in `./projs` dir.
 <a href="https://sm.ms/image/IEUrGuBWn9FNmb8" target="_blank"><img src="https://s2.loli.net/2023/05/15/IEUrGuBWn9FNmb8.jpg" width="75%" height="75%"></a>
 
 ## Cite
+
+If you find our paper, code, or data  helpful, please cite it.
+
 ```
 @inproceedings{Zhang2023LLM-QA4RE,
   title={Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors},
