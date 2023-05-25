@@ -2,8 +2,9 @@
 
 Data and code for ACL 2023 Findings: [Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors](https://arxiv.org/pdf/2305.11159.pdf).
 
-By transforming underrepresented task, relation extraction, to common task during instruction tuning, question answering, QA4RE framework achieves significant and consistent performance gain over 6 LLMs across 4 datasets.
-In addition, it shows strong transferability to model sizes from 175B (GPT-3.5 series) to even 80M (FLAN-T5 Small).
+We present LLM-QA4RE, which aligns underrepresented tasks in the instruction-tuning dataset (relation extraction) to a common task (question answering) to unlock instruction-tuned LLMs' abilities on relation extraction. 
+
+QA4RE achieves significant and consistent performance gains over 6 LLMs across 4 datasets. In addition, it shows strong transferability to model sizes from 175B (GPT-3.5 series) to even 80M (FLAN-T5 Small).
 
 <!-- ![QA4RE-main figure.jpeg](https://s2.loli.net/2023/05/15/Lk1saYNjni3yqWP.jpg) -->
 
