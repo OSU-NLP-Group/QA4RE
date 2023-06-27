@@ -13,7 +13,7 @@ QA4RE achieves significant and consistent performance gains over 6 LLMs across 4
 
 #### TODO
 - [ ] Organize and release CODE for FLAN T5 Series
-- [ ] Release output results of GPT-3.5 Series
+- [x] Release output results of GPT-3.5 Series
 - [x] Organize and release Code for GPT-3.5 Series
 
 ## Installation
