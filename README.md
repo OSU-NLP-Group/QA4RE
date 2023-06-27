@@ -12,17 +12,18 @@ QA4RE achieves significant and consistent performance gains over 6 LLMs across 4
 
 
 #### TODO
-- [ ] Organize and release CODE for FLAN T5 Series
-- [x] Release output results of GPT-3.5 Series
 - [x] Organize and release Code for GPT-3.5 Series
+- [x] Release output results of GPT-3.5 Series
+- [ ] Organize and release CODE for FLAN T5 Series
+- [ ] Refactor code to save results as json/jsonl
 
 ## Installation
 
 Run the following commands to create a conda environment with the required packages.
 
 ```shell
-conda create -n QA4IE python=3.9 pip
-conda activate QA4IE
+conda create -n QA4RE python=3.9 pip
+conda activate QA4RE
 pip install -r requirements.txt
 # same env with few-shot-bioIE
 ```
@@ -30,8 +31,12 @@ pip install -r requirements.txt
 
 ## Data and Launch
 Download data and subsets via [Google Drive](https://drive.google.com/file/d/1tAB7V4_bV76FiPGMsoOWWJnZPtpePtwe/view?usp=sharing)
+
+Results and prompts are saved in [Google Drive](https://drive.google.com/file/d/1hsbwd6Qf5nSH9w5uWgSj9snnpJuLTpkH/view?usp=sharing)
+
 <!-- are prepared in `./data` dir -->
 Unzip directly in `./` and then the root folder should organize like this:
+
 ```
 .
 ├───  data
