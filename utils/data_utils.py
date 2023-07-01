@@ -33,8 +33,7 @@ def load_yaml(path):
 def exp_dir_setup(args):
     """setup experiment directory."""
 
-    # output_dir = '../../../outputs/{}/{}/{}/{}'.format(args.task, args.dataset, args.ex_name, args.run_setting)
-    output_dir = '../../outputs/{}/{}/{}/{}'.format(args.dataset, args.ex_name, args.engine, args.run_setting)
+    output_dir = '../../outputs/{}/{}/{}/{}'.format(args.dataset, args.ex_name, args.engine.replace('/', '-'), args.run_setting)
 
     yaml_config = load_yaml(args.config_path)  # make sure every key has just one value.
     for key, value in yaml_config.items():

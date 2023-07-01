@@ -66,6 +66,9 @@ GPT_MODEL_MAX_COST_DICT = {
 def estimate_cost(prompt, engine, tokenizer):
     """estimate the cost for input prompt based on the num of token."""
     tokens = tokenizer.encode(prompt)
+    if engine not in GPT_MODEL_MAX_COST_DICT:
+        print(f"Warning: unknown engine {engine}, make sure you are using huggingface LLMs or update the GPT_MODEL_MAX_COST_DICT.")
+        return 0
     return len(tokens) * GPT_MODEL_MAX_COST_DICT[engine] / 1000
 
 

@@ -92,12 +92,17 @@ def build_final_input(df, params, engine, tokenizer):
     """build the test ready prompts for the API call."""
     max_tokens = params['max_tokens']
     build_final_input = []
+    if engine in GPT_MODEL_MAX_TOKEN_DICT:
+            max_allowed_token_num = GPT_MODEL_MAX_TOKEN_DICT[engine]
+    else:
+        print(f"Warning: unknown engine {engine}, make sure you are using huggingface LLMs or update the GPT_MODEL_MAX_TOKEN_DICT.")
+        max_allowed_token_num = 2000 #  token num for FLAN-T5
+
     for i, row in tqdm(df.iterrows()):
         task_instructions = params['task_instructions'].strip()
         final_input_prompt = task_instructions + '\n\n' + row['data_prompts']
 
         tokens = tokenizer.encode(final_input_prompt)
-        max_allowed_token_num = GPT_MODEL_MAX_TOKEN_DICT[engine]
         if len(tokens) + max_tokens > max_allowed_token_num:  # only necessary for few-shot setting.
             print(f"Warning: the prompt is too long for {engine}, will remove all the demonstrations.")
             while len(tokens) + max_tokens > max_allowed_token_num:  # remove all the demos.
