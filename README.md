@@ -11,11 +11,11 @@ QA4RE achieves significant and consistent performance gains over 6 LLMs across 4
 <a href="https://sm.ms/image/Lk1saYNjni3yqWP" target="_blank"><img src="https://s2.loli.net/2023/05/15/Lk1saYNjni3yqWP.jpg" width="75%" height="75%" ></a>
 
 
-#### TODO
+<!-- #### TODO
 - [x] Organize and release Code for GPT-3.5 Series LLMs
 - [x] Release output results of GPT-3.5 Series LLMs
 - [x] Organize and release CODE for FLAN T5 Series LLMs
-- [ ] Refactor code to save results as json/jsonl
+- [ ] Refactor code to save results as json/jsonl -->
 
 ## Installation
 
