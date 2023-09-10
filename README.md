@@ -22,7 +22,7 @@ QA4RE achieves significant and consistent performance gains over 6 LLMs across 4
 Run the following commands to create a conda environment with the required packages.
 
 ```shell
-conda create -n QA4RE python=3.9 pip
+conda create -n QA4RE python=3.9.13 pip
 conda activate QA4RE
 pip install -r requirements.txt
 # same env with few-shot-bioIE
