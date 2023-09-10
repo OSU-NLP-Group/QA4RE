@@ -124,7 +124,7 @@ def main():
     parser.add_argument('--mode', type=str, default='dev', choices=['dev', 'test'])
     parser.add_argument('--num_gpus', type=int, default=1)
     parser.add_argument('--prompt_config_name', type=str, default='qa4re_prompt_config.yaml')
-    # parser.add_argument('--type_constrained', action='store_true')
+    parser.add_argument('--type_constrained', action='store_true')
     parser.add_argument('--in_context_size', type=int, default=0)  # number of demonstrations, 0 for zero-shot setting
     parser.add_argument('--run_setting', choices=['retrieval_few_shot_zero_seed', 'fixed_few_shot', 'zero_shot'], default='zero_shot')  # default true few shot setting. use train set to cross validate hyperparameters
     parser.add_argument('--sampling_strategy', default='random', choices=['roberta-large', 'random'])  # sentence embedding model for retrieval few shot setting

@@ -57,9 +57,8 @@ DATA=TACRED
 mode=test # or dev
 model=google/flan-t5-small
 # remove --debug for entire run
-python qa4re_hf_llm.py --mode $mode --dataset ${DATA} --run_setting zero_shot --prompt_config_name qa4re_prompt_config.yaml --model $model --use_t5 --debug
+python qa4re_hf_llm.py --mode $mode --dataset ${DATA} --run_setting zero_shot --type_constrained --prompt_config_name qa4re_prompt_config.yaml --model $model --use_t5 --debug
 
-# type_constrained is used by default
 # saved file in '../../outputs/{}/{}/{}/{}'.format(args.dataset, args.ex_name, args.engine.replace('/', '-'), args.run_setting)
 ```
 
