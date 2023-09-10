@@ -13,7 +13,6 @@ from transformers import AutoTokenizer, AutoModel
 import torch
 from tqdm import tqdm
 import copy
-import wandb
 from copy import deepcopy
 from torch.utils.data import TensorDataset
 from typing import OrderedDict

@@ -11,14 +11,7 @@ from cmath import cos
 from contextlib import nullcontext
 from typing import OrderedDict
 
-import spacy
-import scipy
 import openai
-import pandas as pd
-import numpy as np
-from tqdm import tqdm
-from scipy.special import softmax
-from sklearn.metrics import confusion_matrix, f1_score, precision_score, recall_score
 
 from tenacity import retry, stop_after_attempt, wait_random_exponential
 
