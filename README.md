@@ -79,7 +79,7 @@ If you find our paper, code, or data helpful, please consider citing the paper:
 @inproceedings{Zhang2023LLM-QA4RE,
   title={Aligning Instruction Tasks Unlocks Large Language Models as Zero-Shot Relation Extractors},
   author={Kai Zhang, Bernal Jiménez Gutiérrez, Yu Su},
-  booktitle={Findings of ACL 2023},
+  booktitle={Findings of ACL},
   year={2023}
 }
 ```
@@ -90,7 +90,7 @@ This work is based on our prior work:
 @inproceedings{Gutierrez2022Thinking,
   title={Thinking about GPT-3 In-Context Learning for Biomedical IE? Think Again},
   author={Bernal Jiménez Gutiérrez, Nikolas McNeal, Clay Washington, You Chen, Lang Li, Huan Sun, Yu Su},
-  booktitle={Findings of EMNLP 2022},
+  booktitle={Findings of EMNLP},
   year={2022}
 }
 ```
